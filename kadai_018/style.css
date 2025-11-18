@@ -7,6 +7,8 @@
     text-align: center;
 }
 .top-child {
+	margin-top: 10px;
+	margin-bottom: 10px
     display: inline-block;
     width: 20%;
     background-color: #ffd9df;
