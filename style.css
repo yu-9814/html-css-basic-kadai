@@ -1,0 +1,41 @@
+header {
+	margin-bottom: 20px;
+	background-color: rgb(244, 79, 79);
+
+}
+h1 p body {
+	margin: 0px;
+}
+p a {
+	font-size: 20px;
+}
+h1 {
+	width: 100%;
+  text-align: center;	
+  color: rgb(255, 255, 255);
+}
+main {
+	padding: 10px 10px;
+}
+#parent {
+	display: flex;
+	justify-content: space-around;
+}
+.contents {
+	border: solid 3px rgb(238, 204, 204);
+	padding: 10px 15px;
+	margin: 20px 0px;
+	flex-basis: 25%;
+	text-align: center;
+}
+h2 {
+	border-bottom: dotted 3px rgb(236, 122, 122);
+}
+h2::before {
+	content: "●";
+	color: rgb(239, 111, 139);
+}
+div p:nth-child(4) ::first-letter {
+	color: rgb(97, 206, 249);
+	font-weight: bold;
+}
